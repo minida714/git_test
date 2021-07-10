@@ -33,7 +33,8 @@ class SimpleEnDecrypt:
             return ou.decode('utf-8') # 출력이 문자열이면 디코딩 후 반환
         else:
             return ou
-
+    
+    # changed
 
 if __name__=='__main__':
     # instance 생성
